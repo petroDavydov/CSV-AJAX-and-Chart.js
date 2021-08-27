@@ -53,7 +53,7 @@ function drawChart(labels, ...args) {
               delay: 500,
             },
           },
-          //   ==
+          //   ===
         },
         {
           label: "# Temerature of Nothern",
