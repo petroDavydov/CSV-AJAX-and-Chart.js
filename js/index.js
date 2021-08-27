@@ -40,8 +40,10 @@ function drawChart(labels, ...args) {
         {
           label: "# Average Global Temps",
           data: newData[0],
-          borderColor: "rgb(0, 51, 0)",
+          borderColor: "blue",
           borderWidth: 1,
+        
+
           //  ===
           animations: {
             tension: {
@@ -58,8 +60,9 @@ function drawChart(labels, ...args) {
         {
           label: "# Temerature of Nothern",
           data: newData[1],
-          borderColor: "rgb(51, 153, 255)",
+          borderColor: "tomato",
           borderWidth: 2,
+         
           //  ===
           animations: {
             tension: {
@@ -77,8 +80,9 @@ function drawChart(labels, ...args) {
         {
           label: "# Temperature of South",
           data: newData[2],
-          borderColor: "#ff471a",
+          borderColor: "teal",
           borderWidth: 3,
+        
           //  ===
           animations: {
             tension: {
